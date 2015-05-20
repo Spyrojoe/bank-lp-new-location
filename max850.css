@@ -1,0 +1,58 @@
+@media screen and (max-width: 850px){
+	header, main{
+		margin-bottom: 10%;
+	}
+	.copy{
+		float: none;
+		width: 100%;
+		margin-bottom: 5%;
+	}
+	.copy h2{
+		margin-bottom: 2%;
+	}
+	.copy p:first-of-type{
+		line-height: 1.5em;
+		margin-bottom: 2%;
+	}
+	.video{
+		float: none;
+		width: 100%;
+	}
+	footer{
+		text-align: center;
+	}
+	footer ul{
+		width: 100%;
+	}
+	footer ul{
+		display: flex;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		justify-content: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		align-items: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		margin-bottom: 20px;
+	}
+	footer ul li{
+		width: 33%;
+		padding: 0;
+		border: 0;
+		text-align: center;
+	}
+	footer ul li:nth-of-type(2){
+		border-right: 1px green solid;
+		border-left: 1px green solid;
+	}
+	footer ul li:last-of-type{
+		margin-bottom: 0;
+	}
+	footer span{
+		width: 80%;
+	}
+}

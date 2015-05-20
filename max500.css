@@ -1,0 +1,33 @@
+@media screen and (max-width: 500px){
+	header{
+		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+	}
+	.copy{
+		padding: 0 8px;
+	}
+	.copy h2{
+		margin-bottom: 16px;
+		font-size: 1.1em;
+		text-align: center;
+	}
+	footer ul{
+		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+	}
+	footer ul li{
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	footer ul li:nth-of-type(2){
+		border: 0;
+		/*border-top: 1px green solid;
+		border-bottom: 1px green solid;*/
+	}
+}
