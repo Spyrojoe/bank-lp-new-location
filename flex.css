@@ -2,7 +2,7 @@
 	/*height: 100vh;*/
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: flex-start;
 }
 .flex.wrap{
 	margin: auto;
@@ -10,6 +10,26 @@
 .flex header, .flex main{
 	margin-bottom: 0;
 }
+/*flex header{
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+ 	display: -ms-flexbox;
+ 	justify-content: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+}
+.flex h1{
+	flex-grow: 2;
+	-webkit-box-flex: 2;
+	-webkit-flex-grow: 2;
+	-ms-flex-positive: 2;
+}*/
 @media screen and (max-width: 850px){
 	.flex{
 		/*height: auto;*/

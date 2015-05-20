@@ -2,6 +2,18 @@
 	header, main{
 		margin-bottom: 10%;
 	}
+	header h1{
+		float: none;
+	}
+	.logo{
+		position: static;
+		display: block;
+		margin: 0 auto 3%;
+	}
+	main .button{
+		display: block;
+		max-width: 550px;
+	}
 	.copy{
 		float: none;
 		width: 100%;
@@ -13,6 +25,9 @@
 	.copy p:first-of-type{
 		line-height: 1.5em;
 		margin-bottom: 2%;
+	}
+	.contact{
+		text-align: center;
 	}
 	.video{
 		float: none;
@@ -38,6 +53,7 @@
 		-webkit-align-items: center;
 		-ms-flex-align: center;
 		margin-bottom: 20px;
+		line-height: 1em;
 	}
 	footer ul li{
 		width: 33%;
@@ -52,7 +68,8 @@
 	footer ul li:last-of-type{
 		margin-bottom: 0;
 	}
-	footer span{
+	footer .button{
+		position: static;
 		width: 80%;
 	}
 }
